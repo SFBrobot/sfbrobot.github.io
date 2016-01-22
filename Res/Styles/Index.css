@@ -1,8 +1,11 @@
 /*http://s.codepen.io/rookie1024/debug/PPKOMZ for testing*/
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
 :root {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
+  color: rgba(0, 0, 0, .85);
 }
 
 html, body {
@@ -12,11 +15,12 @@ html, body {
 body {
   display: flex;
   flex-flow: column nowrap;
-  background-color: #87421f;
 }
 
 #header {
   flex: 0 0 auto;
+  background: #902f00;
+  color: white;
 }
 
 #main {
@@ -26,8 +30,4 @@ body {
 h1 {
   color: #f00;
   margin-left: 100px;
-}
-
-p {
-  color: #f00;
 }
