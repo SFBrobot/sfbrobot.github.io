@@ -19,10 +19,10 @@ body {
 
 #header {
   flex: 0 0 auto;
-  background: #5A2F0C;
+  background: #902f00;
   color: white;
 }
 
-#main {
+main {
   flex: 1 0 auto;
 }
