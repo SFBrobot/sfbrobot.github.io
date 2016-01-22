@@ -48,9 +48,12 @@ main {
   box-shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 0 1px rgba(0, 0, 0, .25);
 }
 
-
 .card > header {
-  margin: 0 -4px 4px;
-  padding: 0 4px;
+  margin: 4px -4px 4px;
+  padding: 0 8px;
   border-bottom: 1px solid #d1d1d1;
+}
+
+.card > p {
+  margin: 4px;
 }
