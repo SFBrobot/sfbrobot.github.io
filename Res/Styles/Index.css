@@ -1,12 +1,12 @@
 body {
-    background-color: 87421F;
+  background-color: #87421f;
 }
 
 h1 {
-    color: FFFF00;
-    margin-left: 100px;
+  color: #f00;
+  margin-left: 100px;
 }
 
 p {
-		color: FF0000;
+  color: #f00;
 }
