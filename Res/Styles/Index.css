@@ -63,24 +63,24 @@ button {
   transition-duration: .2s;
   transition-timing-function: cubic-bezier(.25, .5, .5, 1);
   padding: 4px 8px;
-  background: #ec4225;
+  background: #2189cc;
   border: none;
   border-radius: 2px;
   outline: none;
   font-family: inherit;
   font-size: 1rem;
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .25);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 0 2px rgba(0, 0, 0, .2);
 }
 
 button:hover {
-  background: #f56850;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .5), 0 0 3px rgba(0, 0, 0, .25);
+  background: #55b1e5;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .4), 0 0 3px rgba(0, 0, 0, .2);
 }
 
 button:active {
   transition-duration: 0s;
-  background: #c21f03;
+  background: #0a6597;
   color: #c7c7c7;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 0 1px rgba(0, 0, 0, .25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 0 1px rgba(0, 0, 0, .2);
 }
