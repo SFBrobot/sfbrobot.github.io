@@ -1,0 +1,206 @@
+:root {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  color: rgba(0, 0, 0, .85);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+	
+  display: flex;
+  flex-flow: column nowrap;
+  background: #ededed;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; /*The default margin annoys me*/
+} /* Kek. */
+#header {
+  flex: 0 0 auto;
+  background: #902f00;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .25);
+
+}
+
+  #header > h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    
+  	  margin-left: 75px;
+  }
+  #header a {
+    text-decoration: none;
+  flex: 0 0 auto;
+  background: #902f00;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .25);
+
+  	
+  }
+#header a > h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  
+}
+#header a:visited {
+  text-decoration: none;
+  background: #ccc;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .25);
+}
+#sidebar{
+	background: #902f00;
+	width: 200px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: -200px;
+	top: 0px;
+	transition: left 0.3s linear;
+	box-shadow: 2px 3px 3px;
+}
+
+#sidebar.visible{
+	left: 0px;
+	transition: left 0.3s linear;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li a{
+	background: #902f00;
+	color: #ccc;
+	border-bottom: 1px solid #111;
+	box-shadow: 0px 1px 5px black;
+	display: block;
+	width: 180px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#sidebar-button{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 15px;
+	cursor: pointer;
+	margin: 20px;
+	position: absolute;
+	top: 0px;
+	right: -60px;
+}
+
+#sidebar-button span {
+	height: 1.75px;
+	background: white;
+	margin-bottom: 4px;
+	display: block;
+	width: 22.5px;
+}
+#sidebar-button span:hover {
+	color: black;
+	
+}
+
+#sidebar-button span:nth-child(2){
+	width: 22.5px;
+	height: 2px;
+}
+
+#sidebar-button span:nth-child(3){
+	width: 22.5px;
+	height: 2px;
+}
+#sidebar ul li:hover ul {
+      display: block;
+      min-width: 50px;
+      margin-right: -5px;
+      
+    }
+    #sidebar ul ul {
+      display: none;
+      position: absolute;
+    }
+    #sidebar ul ul li {
+      display: block;
+    }
+    
+main {
+  flex: 1 0 auto;
+  padding: 4px;
+}
+
+.card {
+  margin: 4px;
+  padding: 4px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 0 1px rgba(0, 0, 0, .25);
+}
+
+  .card > header {
+    margin: 4px -4px 4px;
+    padding: 0 8px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .card > p {
+    margin: 4px;
+  }
+#in {
+ margin: 0 0 0 20px; 
+}
+    #slider {
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+      #slider .slides {
+            display: block;
+            width: 8000px;
+            height: 400px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+      #slider .slide {
+            float: left;
+            list-style-type: none;
+            width: 800px;
+            height: 400px;
+            text-align: center;
+        }
+      div {
+      	text-align:center;
+      width:100%;
+      display:block;
+      margin:auto;
+      float: none;
+        }
+        a p {
+        	
+        	text-decoration: none;
+        	color: black;
+        	margin: 0;
+        }
+        a {
+        	text-decoration: none;
+        }
